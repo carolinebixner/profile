@@ -56,7 +56,7 @@ a {
 
 .list-inline {
   padding: 0;
-  list-style: none
+  list-style: none;
 }
 
 .hover-icon:hover {
@@ -65,7 +65,7 @@ a {
 }
 
 .list-inline li {
-  display: inline-block
+  display: inline-block;
   /*padding: 0px 20px;*/
 }
 
