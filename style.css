@@ -25,29 +25,30 @@ a {
 }
 
 .img-circle {
-  border-radius: 80%;
+  border-radius: 8px;
 }
 
 .card-yellow{
   background-color: #fcf8f3;
   padding: 70px;
   text-align: center;
-  box-shadow: 0 0 10px #e3e8e5;
+  box-shadow: 0 0 10px #ededed;
   border-radius: 5px;
+  margin: 30px auto;
 }
 
 .btn-pink {
   background-color: #ffaaa5;
   padding: 6px 20px;
-  color: black;
+  color: white;
   border-radius: 8px;
   display: inline-block;
   margin: 20px;
-  transition: 0.5s;
+  transition: 0.8s;
 }
 
 .btn-pink:hover {
- opacity: 0.5;
+ opacity: 0.4;
  color: white;
 }
 
@@ -55,6 +56,7 @@ a {
 .list-inline {
   padding: 0;
   list-style: none;
+  transition: 3s
 }
 
 .hover-icon:hover {
@@ -79,13 +81,13 @@ a {
 @media (max-width: 960px) {
   /* For a screen < 960px, this CSS will be read */
   .container {
-    width: 600px;
+    width: 700px;
   }
 }
 @media (max-width: 720px) {
   /* For a screen < 720px, this CSS will be read */
   .container {
-    width: 400px;
+    width: 500px;
   }
 }
 @media (max-width: 540px) {
